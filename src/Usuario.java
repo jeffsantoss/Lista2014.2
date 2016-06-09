@@ -1,4 +1,4 @@
-public class Usuario extends Perfil {
+public class Usuario extends Perfil implements Serializable {
 
 	public Usuario(int cod, String nome, String sex) {
 		super(cod, nome, sex);
