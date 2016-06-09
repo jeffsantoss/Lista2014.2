@@ -1,4 +1,4 @@
-public class Moderador extends Perfil {
+public class Moderador extends Perfil implements Serializable {
 
 	public Moderador(int cod, String nome, String sex) {
 		super(cod, nome, sex);
